@@ -20,8 +20,8 @@ app.get('/', (req, res) => {
 //Connect to Data Base (DB) contains user name an
 const options = {
     useNewUrlParser: true,
-    useUnifiedTopology: true 
-  };
+    useUnifiedTopology: true
+};
 
 mongoose.connect(
     process.env.DB_CONNECTION,
